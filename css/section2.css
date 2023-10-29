@@ -1,0 +1,221 @@
+.info_basic {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 200px;
+  border: 2px solid #757575;
+  border-radius: 30px;
+  margin-top: 50px;
+  box-shadow: 0 0 20px 0px #757575;
+  color: #ffffff !important;
+  animation: fadeIn2 1.5s ease-in;
+}
+
+.info_basic_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 20%;
+  height: 100%;
+  animation: fadeIn2 1s ease-in-out;
+}
+
+.userPicture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 12px darkslategray;
+}
+
+.info_basic_right {
+  box-sizing: border-box;
+  width: 80%;
+  height: 100%;
+  padding: 10px;
+  animation: fadeIn2 1.5s ease-in;
+}
+
+.info_basic_right_inner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+}
+
+.userName {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.userLogin {
+  font-size: 20px;
+  margin: 10px;
+  margin-bottom: 0;
+}
+
+.userBio {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.uFollow_Repos {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  font-weight: bold;
+}
+
+/* info_basic2 */
+
+.info_basic2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  border: 2px solid #757575;
+  border-radius: 30px;
+  margin-top: 10px;
+  box-shadow: 0 0 20px 0px #757575;
+  color: #ffffff !important;
+  animation: fadeIn2 1.5s ease-in;
+}
+
+.lSpace {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  margin-left: 50px;
+}
+
+.material_logo {
+  font-size: 25px !important;
+  cursor: pointer;
+}
+
+.location {
+  font-weight: bold;
+}
+
+.cSpace {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+}
+
+.created_at {
+  font-weight: bold;
+}
+
+.gSpace {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+}
+
+/* info_basic3 */
+
+.info_basic3 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 80px;
+  border: 2px solid #757575;
+  border-radius: 30px;
+  margin-top: 20px;
+  box-shadow: 0 0 20px 0px #757575;
+  color: #ffffff !important;
+  animation: fadeIn2 1.5s ease-in;
+}
+
+.info_basic3_inner {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-left: 20px;
+  overflow-x: auto;
+}
+/* 스크롤바 스타일링 */
+.info_basic3_inner::-webkit-scrollbar {
+  height: 10px;
+}
+
+.info_basic3_inner::-webkit-scrollbar-thumb {
+  background-color: #373737; /* 스크롤바 색상 설정 */
+  border-radius: 50px; /* 스크롤바 썸네일 모양 설정 */
+}
+/* 호버 시 스크롤바 스타일 변경 및 포인터로 변경 */
+.info_basic3_inner::-webkit-scrollbar-thumb:hover {
+  background-color: #525252; /* 호버 시 색상 변경 */
+  cursor: pointer; /* 호버 시 포인터로 변경 */
+}
+
+.repos {
+  background-color: #373737;
+  color: white;
+  margin: 5px;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 5px 15px;
+  white-space: nowrap;
+  transition: all 0.5s;
+}
+
+.repos:hover {
+  border-color: #4682ec;
+  color: #4682ec;
+  box-shadow: 0 0 7px #4682ec;
+}
+
+/* info_basic4 */
+.info_basic4 {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  height: 170px;
+  border: 2px solid #757575;
+  border-radius: 30px;
+  margin-top: 35px;
+  box-shadow: 0 0 20px 0px #757575;
+  color: #ffffff !important;
+  animation: fadeIn2 1.5s ease-in;
+}
+
+.info_basic4_inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.git_chart {
+  width: 990px;
+  animation: fadeIn2 4s;
+}
+
+@keyframes fadeIn2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
